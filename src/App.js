@@ -27,6 +27,7 @@ function handleSubmit(event) {
     }
     else{
         console.log("Passwords do not match")
+        return
     }
     if (value.isNewsletter){
         console.log("Thanks for signing up for our newsletter")
